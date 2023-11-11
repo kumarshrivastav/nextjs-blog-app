@@ -9,9 +9,9 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div>
-    <Featured />
+    <Featured />  
     <CategoryList />
-    <div>
+    <div className='flex gap-[50px]'>
       <CardList/>
       <Menu />
     </div>
